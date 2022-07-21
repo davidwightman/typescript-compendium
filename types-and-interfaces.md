@@ -12,6 +12,6 @@ type Person = {
 }
 ```
 
-- interface describe shape of object
+- interface describe shape of object, interfaces can not describe literals
 - interfaces can be reopened and added on to
-- use extends key word with types use & (intersection type)
+- use extends key word with interfaces and use & with types (intersection type)
